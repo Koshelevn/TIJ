@@ -15,7 +15,7 @@ public class BasicGenerator<T> implements Generator<T> {
     }
   }
   // Produce a Default generator given a type token:
-  public static <T> Generator<T> create(Class<T> type) {
+  public static <T> Generator<T> create(Class <T> type) {
     return new BasicGenerator<T>(type);
   }
 } ///:~

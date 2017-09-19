@@ -5,7 +5,8 @@ interface Selector {
         Object current();
         void next();
         }
-public class Sequence {
+
+public class Sequence{
     private Object[] items;
     private int next = 0;
     public Sequence(int size) { items = new Object[size]; }
